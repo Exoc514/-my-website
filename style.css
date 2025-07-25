@@ -1,0 +1,74 @@
+/* Reset and base styles */
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #dee4ec;
+    font-family: Arial, sans-serif;
+}
+
+/* Base neumorphic container */
+.neumorphic {
+    background: #e0e5ec;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px #a3b1c6, -10px -10px 20px #ffffff;
+}
+
+/* Card style */
+.neumorphic-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    width: 320px;
+    text-align: center;
+}
+
+/* Header */
+h1 {
+    color: #5c6674;
+    margin-bottom: 25px;
+    font-size: 24px;
+}
+
+/* Input fields */
+.neumorphic-input {
+    background: #e3e8ef;
+    border-radius: 10px;
+    box-shadow: inset 5px 5px 10px #b0bac6, inset -5px -5px 10px #ffffff;
+    padding: 15px;
+    width: 100%;
+    font-size: 16px;
+    color: #333;
+    border: none;
+    outline: none;
+    margin-bottom: 20px;
+}
+
+.neumorphic-input::placeholder {
+    color: #a3b1c6;
+}
+
+/* Button */
+.neumorphic-button {
+    background: #e3e8ef;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #b0bac6, -5px -5px 10px #ffffff;
+    padding: 15px 30px;
+    font-size: 16px;
+    color: #5c6674;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.neumorphic-button:hover {
+    background-color: #d1d8e0;
+}
+
+.neumorphic-button:active {
+    box-shadow: inset 5px 5px 10px #a3b1c6, inset -5px -5px 10px #ffffff;
+}
